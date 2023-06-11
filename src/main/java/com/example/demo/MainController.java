@@ -22,4 +22,10 @@ public class MainController {
     {
         return "project2";
     }
+
+    @GetMapping("/loginpage")
+    public String loginpage() 
+    {
+        return "loginpage";
+    }
 }
