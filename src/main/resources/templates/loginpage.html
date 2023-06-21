@@ -7,6 +7,7 @@
 </head>
 <body>
   <div class="button-container">
+    <a href="/mainpage" class="button" >Main Page</a>
     <a href="https://drive.google.com/u/5/uc?id=1MiJgHpTBpID4ePNlTYu_cLfhtAqxzwV-&export=download" class="button" download>Download Resume</a>
     <!--To get the new resume link, 1. go to drive 2. Preview 3. Download file 4. Right click dropdown 5. Copy download link-->
     <!--2nd option: To get the new resume link, 1. go to drive 2. Preview 3. Open in new link 4. Download file 5. When new window opens, quickly copy URL-->
@@ -17,7 +18,7 @@
   </div>
 
     <h1>Please enter your username and password below</h1>
-    <form>
+    <form action="/login" method="POST">
       <div class="login-group">
         <label for="username">Username:</label>
         <input type="text" id="username" name="username" placeholder="Enter your username" required>
