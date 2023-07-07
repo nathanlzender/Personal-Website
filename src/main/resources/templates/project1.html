@@ -2,28 +2,91 @@
 <html>
 <head>
   <title>Project 1 page</title>
-  <link rel="stylesheet" href="styles.css">
+  <link rel="stylesheet" href="projectstyles.css">
   
 </head>
+
   <body>
-    <h1>Project 1 page</h1>
-    <p>This is the page to house the first project that I create</p>
 
-    <header class="header">
-      <div class="button-container-left">
-        <a href="/mainpage" class="button" >Main Page</a>
-        <a href="/project1" class="button-current" >Project 1</a>
-        <a href="/project2" class="button" >Project 2</a>
+  <div class="personal-section">
+    <div class="text-with-button-container">
+      <h2>Personal Section</h2>
+      <p>This is a paragraph about me and my personal life.</p>
+      <!-- Add more content as needed -->
+    </div>
+    <div class="picture-container">
+      <img src="path/to/personal-picture.jpg" alt="Personal Picture">
+    </div>
+  </div>
+
+  <div class="professional-section">
+    <div class="text-with-button-container">
+      <h2>Professional Section</h2>
+      <p>This is a paragraph about my professional experience and skills.</p>
+      <!-- Add more content as needed -->
+    </div>
+    <div class="picture-container">
+      <img src="path/to/professional-picture.jpg" alt="Professional Picture">
+    </div>
+  </div>
+
+  <div class="additional-section">
+    <h2>Additional Section</h2>
+    <p>This is an additional section with more information about me.</p>
+    <!-- Add more content as needed -->
+  </div>
+
+  <!-- Add more sections as needed -->
+
+  <header class="header">
+    <div class="button-container-left">
+      <div class="dropdown">
+        <button class="button">Menu &#9662;</button>
+        <div class="dropdown-content">
+          <a href="/mainpage" class="dropdown-button" >Main Page</a>
+        </div>
       </div>
 
-      <div class="button-container-right">
-        <a href="https://drive.google.com/u/5/uc?id=1MiJgHpTBpID4ePNlTYu_cLfhtAqxzwV-&export=download" class="button" download>Download Resume</a>
-        <!--To get the new resume link, 1. go to drive 2. Preview 3. Download file 4. Right click dropdown 5. Copy download link-->
-        <!--2nd option: To get the new resume link, 1. go to drive 2. Preview 3. Open in new link 4. Download file 5. When new window opens, quickly copy URL-->
-        <a href="https://github.com/nathanlzender" class="button" target="_blank">Github</a>
-        <a href="https://www.linkedin.com/in/nathanlzender/" class="button" target="_blank">LinkedIn</a>
-        <a href="/loginpage" class="button" >Login page</a>
+      <div class="dropdown">
+        <button class="button">Mobile &#9662;</button>
+        <div class="dropdown-content">
+          <a href="/project1" class="dropdown-button-current" >Project 1</a>
+          <a href="/project2" class="dropdown-button" >Project 2</a>
+        </div>
       </div>
-    </header>
-  </body>
+
+      <div class="dropdown">
+        <button class="button">Desktop &#9662;</button>
+        <div class="dropdown-content">
+          <a href="/survive" class="dropdown-button" >Survive</a>
+        </div>
+      </div>
+
+      <div class="dropdown">
+        <button class="button">Embedded Controllers &#9662;</button>
+        <div class="dropdown-content">
+          <a href="/mainpage" class="dropdown-button" >Main Page</a>
+        </div>
+      </div>
+    
+      <div class="dropdown">
+        <button class="button">Data Management &#9662;</button>
+        <div class="dropdown-content">
+          <a href="/mainpage" class="dropdown-button" >Main Page</a>
+        </div>
+      </div>
+  </div>
+
+    <div class="button-container-right">
+      <a href="https://drive.google.com/u/5/uc?id=1MiJgHpTBpID4ePNlTYu_cLfhtAqxzwV-&export=download" class="button" download>Download Resume</a>
+      <!--To get the new resume link, 1. go to drive 2. Preview 3. Download file 4. Right click dropdown 5. Copy download link-->
+      <!--2nd option: To get the new resume link, 1. go to drive 2. Preview 3. Open in new link 4. Download file 5. When new window opens, quickly copy URL-->
+      <a href="https://github.com/nathanlzender" class="button" target="_blank">Github</a>
+      <a href="https://www.linkedin.com/in/nathanlzender/" class="button" target="_blank">LinkedIn</a>
+      <!--<a href="/loginpage" class="button" >Login page</a> -->
+    </div>
+  </header>
+
+</body>
 </html>
+
