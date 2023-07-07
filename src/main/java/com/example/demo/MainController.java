@@ -28,4 +28,16 @@ public class MainController {
     {
         return "loginpage";
     }
+
+    @GetMapping("/aboutme")
+    public String aboutme() 
+    {
+        return "aboutme";
+    }
+
+    @GetMapping("/survive")
+    public String survive() 
+    {
+        return "survive";
+    }
 }
