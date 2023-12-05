@@ -1,0 +1,301 @@
+html, body 
+{
+  height: 100%;
+  margin: 0;
+  padding: 0;
+}
+
+body 
+{
+  display: relative;
+  font-family: Arial, sans-serif;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  background: linear-gradient(to bottom, #5262a1, #68baaa);
+  background-attachment: fixed;
+
+}
+
+header 
+{
+  display: flex;
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  padding: 5px;
+  text-align: center;
+  background-color: rgba(0, 0, 0, 0.7);
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+}
+
+footer
+{
+  display: flex-end;
+  padding: 5px;
+  margin-top: 50px;
+  text-align: center;
+  background-color: rgba(0, 0, 0, 0.7);
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+}
+
+h1 
+{
+  color: #fff;
+  margin-top: 100px; 
+  margin-left: 20px;
+  text-decoration: underline;
+}
+
+h2 
+{
+  color: #fff;
+  margin-top: 30px;
+}
+
+p 
+{
+  color: #fff;
+  margin-top: 0px;
+  margin-left: 20px;
+  font-size: 20px;
+}
+
+p2
+{
+  color: #fff;
+  border-color:black ;
+  text-shadow: 
+  -1px 1px 0 #000,
+  1px 1px 0 #000,
+  1px -1px 0 #000,
+  -1px -1px 0 #000;
+  white-space: pre-line;
+  font-size: 20px;
+}
+
+.header-and-paragraph-container
+{
+  margin-left:20px;
+}
+
+.button-container-left 
+{
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+}
+
+.button-container-right 
+{
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+}
+
+.button-container-left-vertical
+{
+  position: relative;
+  display: flex;
+  align-items: flex-start;
+  flex-direction: column;
+  background-color: #f9f9f96e;
+  justify-content: space-between;
+  margin-left: 50px;
+  width: 280px;
+  height: 365px
+}
+
+.button-container-left-vertical .button
+{
+  width: 220px;
+}
+
+.button-container-left-vertical .button-current
+{
+  width: 220px;
+}
+
+.button 
+{
+  display: inline-block;
+  padding: 10px 20px;
+  background-color: #007bff;
+  color: #fff;
+  text-decoration: none;
+  border-radius: 4px;
+  margin: 10px;
+  transition: background-color 0.2s ease;
+  font-size: 15px;
+  border: none;
+}
+
+.button-current, multi-container-button 
+{
+  display: inline-block;
+  padding: 10px 20px;
+  background-color: #003a73;
+  color: #fff;
+  text-decoration: none;
+  border-radius: 4px;
+  margin: 10px;
+  transition: background-color 0.2s ease;
+}
+
+.button:hover 
+{
+  background-color: #0056b3;
+}
+  
+.button-current:hover 
+{
+  background-color: #0056b3;
+}
+
+.multi-container-button
+{
+  display: inline-block;
+  padding: 10px 20px;
+  background-color: #007bff;
+  color: #fff;
+  text-decoration: none;
+  border-radius: 4px;
+  margin: 10px;
+  transition: background-color 0.2s ease;
+  font-size: 15px;
+  border: none;
+}
+
+.embedded
+{
+  display: inline-block;
+  padding: 10px 20px;
+  margin: 10px;
+}
+  
+.embedded-container 
+{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.login-group
+{
+  margin-bottom: 10px;
+
+}
+
+label 
+{
+  display: inline-block;
+  color: #fff;
+  width: 100px;
+}
+
+.dropdown 
+{
+  position: relative;
+  display: inline-block;
+  align-items: center;
+  text-align: center;
+}
+
+.dropdown-content 
+{
+  display: none;
+  position: absolute;
+  background-color: #f9f9f9;
+  min-width: 160px;
+  z-index: 1;
+  left: 50%;
+  transform: translateX(-50%);
+}
+
+.dropdown:hover .dropdown-content 
+{
+  display: block;
+}
+
+.dropdown-button
+{
+  display: inline-block;
+  padding: 10px 20px;
+  color: #007bff;
+  text-decoration: none;
+  border-radius: 4px;
+  margin: 10px;
+  transition: color 0.2s ease;
+}
+
+.dropdown-button-current
+{
+  display: inline-block;
+  padding: 10px 20px;
+  color: #003a73;
+  text-decoration: none;
+  border-radius: 4px;
+  margin: 10px;
+  transition: color 0.2s ease;
+}
+
+.dropdown-button:hover 
+{
+  background-color: #0067dc5a;
+}
+
+.dropdown-button-current:hover 
+{
+  background-color: #0067dc5a;
+}
+
+.image-container
+{
+  width: 300px;
+  height: 200px;
+}
+
+#displayed-image
+{
+  margin-left: 50px;
+  width: auto;
+  height: 350px;
+}
+
+.displayed-image.show
+{
+  display: block;
+  opacity: 1;
+}
+
+.multi-container
+{
+  display: flex;
+}
+
+.multi-container-2
+{
+  display: flex;
+  align-items: center;
+}
+
+.text-with-button-container
+{
+  flex-direction: column;
+}
+
+.picture-with-text-ontop
+{
+  text-align: center;
+  margin-left: 400px;
+}
+
+.picture-with-text-ontop p
+{
+  font-size: 23px;
+}

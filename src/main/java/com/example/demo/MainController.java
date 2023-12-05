@@ -2,14 +2,12 @@ package com.example.demo;
 
 import org.springframework.stereotype.Controller;
 import org.springframework.web.bind.annotation.GetMapping;
+import org.springframework.web.bind.annotation.PostMapping;
+import org.springframework.web.bind.annotation.PutMapping;
+import org.springframework.web.bind.annotation.RequestBody;
 
 @Controller
 public class MainController {
-    @GetMapping("/mainpage")
-    public String main() 
-    {
-        return "mainpage";
-    }
 
     @GetMapping("/project1")
     public String project1() 
@@ -40,4 +38,11 @@ public class MainController {
     {
         return "survive";
     }
+
+    @GetMapping("/salt-sensor")
+    public String saltsensor() 
+    {
+        return "salt-sensor";
+    }
+
 }

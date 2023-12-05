@@ -51,7 +51,7 @@ public class Login
                     {
                         System.out.println("Username and password are correct!");
                         //session.setAttribute("username", enteredUsername);
-                        return new RedirectView("/mainpage");
+                        return new RedirectView("/");
                     } 
                     
                     else 
